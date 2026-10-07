@@ -1,0 +1,27 @@
+{
+  "source": "Meshy_AI_Green_Dish_With_Speck_0908184755_texture.glb",
+  "source_sha256": "e56c09abd9780eddf38cb00b7f968b4f408cb0136af66f647c55fa21f4cb7411",
+  "dimensions_m": [
+    0.147,
+    0.147,
+    0.013
+  ],
+  "floor_z_m": 0.007718336702848317,
+  "green_rgb": [
+    0.48627450980392156,
+    0.6039215686274509,
+    0.4823529411764706
+  ],
+  "visual_faces": 60000,
+  "collision_parts": 48,
+  "decomposition": {
+    "threshold": 0.025,
+    "max_convex_hull": 48,
+    "preprocess_mode": "auto",
+    "resolution": 2000,
+    "mcts_nodes": 15,
+    "mcts_iterations": 60,
+    "mcts_max_depth": 3,
+    "seed": 0
+  }
+}

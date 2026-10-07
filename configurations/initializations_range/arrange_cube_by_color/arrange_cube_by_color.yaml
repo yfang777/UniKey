@@ -1,0 +1,12 @@
+asset_dir: assets/objects/arrange_cube_by_color
+cube:
+  side_m: 0.0245
+  mass_kg: 0.012
+  x: [0.08, 0.12]
+  y: [-0.15, -0.05]
+  yaw_deg: [-20, 20]
+plates:
+  # Slot colors: green, purple, yellow.
+  # Robot forward is +X; +Y is robot left. Center is farther forward.
+  centers_xy_m: [[0.32, -0.10], [0.22, 0.05], [0.22, -0.25]]
+  position_jitter_m: 0.01  # +/- 1 cm independently in X and Y; no Z jitter

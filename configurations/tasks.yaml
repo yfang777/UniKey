@@ -1,0 +1,116 @@
+tasks:
+  arrange_cube_by_color:
+    robot_variant: w_wrist
+    task_description: Pick up the cube and place it on the plate of the same color.
+    constraint_path: assets/solution/arrange_cube_by_color/constraints.py
+    stable_solution_path: assets/solution/arrange_cube_by_color/sol.py
+    constraint_judge_path: assets/solution/arrange_cube_by_color/constraints_judge.py
+    dummy_simulate_t: 0.3
+    max_ee_linear_vel: 0.15
+    rekep_tolerance: -0.005
+    camera_names:
+    - front
+    - wrist
+    physics:
+      solver:
+        impratio: 5
+        noslip_iterations: 5
+      object:
+        friction:
+        - 1.2
+        - 0.02
+        - 0.001
+        condim: 6
+        solref:
+        - 0.005
+        - 1.0
+        solimp:
+        - 0.95
+        - 0.99
+        - 0.001
+      finger:
+        friction:
+        - 1.2
+        - 0.001
+        - 0.0001
+        condim: 4
+        solref:
+        - 0.003
+        - 1.0
+        solimp:
+        - 0.99
+        - 0.999
+        - 0.001
+        priority: 1
+      gripper:
+        forcerange:
+        - -8.0
+        - 8.0
+      sticky:
+        enabled: false
+  helper_func_path: rekep_solver/constraint_helpers.py
+camera_params:
+  front:
+    parent_frame: world
+    resolution:
+    - 640
+    - 480
+    extrinsic:
+    - - 0.019104352057685393
+      - 0.7777498791256758
+      - -0.6282834943339289
+      - 0.5336811842514465
+    - - 0.9997939909067428
+      - -0.01916961375572411
+      - 0.006670956095199882
+      - -0.06521350852947119
+    - - -0.006855616618783801
+      - -0.6282815065147568
+      - -0.7779558786282956
+      - 0.6991590994023145
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    intrinsic:
+    - - 386.835693359375
+      - 0
+      - 319.5
+    - - 0
+      - 386.3265075683594
+      - 239.5
+    - - 0
+      - 0
+      - 1
+  wrist:
+    parent_frame: link7
+    resolution:
+    - 1280
+    - 720
+    extrinsic:
+    - - 0.016795688013613957
+      - -0.947419567720188
+      - -0.3195529182546219
+      - 0.07450428280428567
+    - - 0.9997987824000528
+      - 0.019419733378496822
+      - -0.005026794891712395
+      - -0.012338786016393016
+    - - 0.01096811631614955
+      - -0.3194041901046443
+      - 0.9475550980117591
+      - 0.0647661160584721
+    - - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+    intrinsic:
+    - - 634.0862422997947
+      - 0
+      - 639.5
+    - - 0
+      - 649.3457943925234
+      - 359.5
+    - - 0
+      - 0
+      - 1

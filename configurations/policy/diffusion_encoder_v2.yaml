@@ -1,0 +1,31 @@
+diffusion_encoder_v2:
+  setting:
+    repo_id: unikey
+    policy_infer_freq: 10
+    control_freq: 50
+    action_timestamp_offset: 0.08
+    resize_rgb_image: true
+    n_obs_steps: 1
+    chunk_size: 16
+    action_decay_coeff: 0.02
+    n_action_steps: 16
+    use_relative_action: false
+    lerobot_fps: 50
+  train:
+    num_steps_rgb: 50000
+    num_steps_finetune: 40000
+    batch_size_rgb: 16
+    save_freq: 5000
+    save_freq_finetune: 5000
+    num_workers_rgb: 32
+    dataloader_recycle_steps_rgb: 1000
+    use_cuda: true
+    dataset_combined_v4:
+      offline: 0.5
+      new_recovery: 0.5
+  ema:
+    update_after_step: 0
+    inv_gamma: 1.0
+    power: 0.75
+    min_value: 0.0
+    max_value: 0.9999

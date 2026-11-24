@@ -1,0 +1,906 @@
+<mujoco model="002_bowl_8">
+  <asset>
+    <mesh name="002_bowl_8_mesh" file="measured/002_bowl_8.stl" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_0" file="measured/decomposed/bowl_000.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_1" file="measured/decomposed/bowl_001.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_2" file="measured/decomposed/bowl_002.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_3" file="measured/decomposed/bowl_003.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_4" file="measured/decomposed/bowl_004.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_5" file="measured/decomposed/bowl_005.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_6" file="measured/decomposed/bowl_006.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_7" file="measured/decomposed/bowl_007.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_8" file="measured/decomposed/bowl_008.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_9" file="measured/decomposed/bowl_009.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_10" file="measured/decomposed/bowl_010.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_11" file="measured/decomposed/bowl_011.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_12" file="measured/decomposed/bowl_012.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_13" file="measured/decomposed/bowl_013.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_14" file="measured/decomposed/bowl_014.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_15" file="measured/decomposed/bowl_015.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_16" file="measured/decomposed/bowl_016.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_17" file="measured/decomposed/bowl_017.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_18" file="measured/decomposed/bowl_018.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_19" file="measured/decomposed/bowl_019.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_20" file="measured/decomposed/bowl_020.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_21" file="measured/decomposed/bowl_021.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_22" file="measured/decomposed/bowl_022.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_23" file="measured/decomposed/bowl_023.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_24" file="measured/decomposed/bowl_024.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_25" file="measured/decomposed/bowl_025.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_26" file="measured/decomposed/bowl_026.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_27" file="measured/decomposed/bowl_027.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_28" file="measured/decomposed/bowl_028.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_29" file="measured/decomposed/bowl_029.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_30" file="measured/decomposed/bowl_030.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_31" file="measured/decomposed/bowl_031.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_32" file="measured/decomposed/bowl_032.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_33" file="measured/decomposed/bowl_033.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_34" file="measured/decomposed/bowl_034.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_35" file="measured/decomposed/bowl_035.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_36" file="measured/decomposed/bowl_036.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_37" file="measured/decomposed/bowl_037.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_38" file="measured/decomposed/bowl_038.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_39" file="measured/decomposed/bowl_039.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_40" file="measured/decomposed/bowl_040.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_41" file="measured/decomposed/bowl_041.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_42" file="measured/decomposed/bowl_042.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_43" file="measured/decomposed/bowl_043.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_44" file="measured/decomposed/bowl_044.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_45" file="measured/decomposed/bowl_045.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_46" file="measured/decomposed/bowl_046.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_47" file="measured/decomposed/bowl_047.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_48" file="measured/decomposed/bowl_048.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_49" file="measured/decomposed/bowl_049.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_50" file="measured/decomposed/bowl_050.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_51" file="measured/decomposed/bowl_051.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_52" file="measured/decomposed/bowl_052.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_53" file="measured/decomposed/bowl_053.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_54" file="measured/decomposed/bowl_054.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_55" file="measured/decomposed/bowl_055.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_56" file="measured/decomposed/bowl_056.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_57" file="measured/decomposed/bowl_057.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_58" file="measured/decomposed/bowl_058.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_59" file="measured/decomposed/bowl_059.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_60" file="measured/decomposed/bowl_060.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_61" file="measured/decomposed/bowl_061.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_62" file="measured/decomposed/bowl_062.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_63" file="measured/decomposed/bowl_063.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_64" file="measured/decomposed/bowl_064.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_65" file="measured/decomposed/bowl_065.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_66" file="measured/decomposed/bowl_066.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_67" file="measured/decomposed/bowl_067.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_68" file="measured/decomposed/bowl_068.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_69" file="measured/decomposed/bowl_069.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_70" file="measured/decomposed/bowl_070.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_71" file="measured/decomposed/bowl_071.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_72" file="measured/decomposed/bowl_072.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_73" file="measured/decomposed/bowl_073.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_74" file="measured/decomposed/bowl_074.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_75" file="measured/decomposed/bowl_075.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_76" file="measured/decomposed/bowl_076.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_77" file="measured/decomposed/bowl_077.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_78" file="measured/decomposed/bowl_078.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_79" file="measured/decomposed/bowl_079.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_80" file="measured/decomposed/bowl_080.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_81" file="measured/decomposed/bowl_081.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_82" file="measured/decomposed/bowl_082.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_83" file="measured/decomposed/bowl_083.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_84" file="measured/decomposed/bowl_084.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_85" file="measured/decomposed/bowl_085.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_86" file="measured/decomposed/bowl_086.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_87" file="measured/decomposed/bowl_087.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_88" file="measured/decomposed/bowl_088.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_89" file="measured/decomposed/bowl_089.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_90" file="measured/decomposed/bowl_090.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_91" file="measured/decomposed/bowl_091.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_92" file="measured/decomposed/bowl_092.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_93" file="measured/decomposed/bowl_093.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_94" file="measured/decomposed/bowl_094.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_95" file="measured/decomposed/bowl_095.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_96" file="measured/decomposed/bowl_096.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_97" file="measured/decomposed/bowl_097.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_98" file="measured/decomposed/bowl_098.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_99" file="measured/decomposed/bowl_099.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_100" file="measured/decomposed/bowl_100.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_101" file="measured/decomposed/bowl_101.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_102" file="measured/decomposed/bowl_102.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_103" file="measured/decomposed/bowl_103.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_104" file="measured/decomposed/bowl_104.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_105" file="measured/decomposed/bowl_105.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_106" file="measured/decomposed/bowl_106.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_107" file="measured/decomposed/bowl_107.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_108" file="measured/decomposed/bowl_108.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_109" file="measured/decomposed/bowl_109.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_110" file="measured/decomposed/bowl_110.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_111" file="measured/decomposed/bowl_111.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_112" file="measured/decomposed/bowl_112.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_113" file="measured/decomposed/bowl_113.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_114" file="measured/decomposed/bowl_114.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_115" file="measured/decomposed/bowl_115.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_116" file="measured/decomposed/bowl_116.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_117" file="measured/decomposed/bowl_117.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_118" file="measured/decomposed/bowl_118.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_119" file="measured/decomposed/bowl_119.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_120" file="measured/decomposed/bowl_120.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_121" file="measured/decomposed/bowl_121.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_122" file="measured/decomposed/bowl_122.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_123" file="measured/decomposed/bowl_123.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_124" file="measured/decomposed/bowl_124.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_125" file="measured/decomposed/bowl_125.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_126" file="measured/decomposed/bowl_126.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_127" file="measured/decomposed/bowl_127.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_128" file="measured/decomposed/bowl_128.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_129" file="measured/decomposed/bowl_129.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_130" file="measured/decomposed/bowl_130.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_131" file="measured/decomposed/bowl_131.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_132" file="measured/decomposed/bowl_132.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_133" file="measured/decomposed/bowl_133.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_134" file="measured/decomposed/bowl_134.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_135" file="measured/decomposed/bowl_135.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_136" file="measured/decomposed/bowl_136.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_137" file="measured/decomposed/bowl_137.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_138" file="measured/decomposed/bowl_138.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_139" file="measured/decomposed/bowl_139.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_140" file="measured/decomposed/bowl_140.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_141" file="measured/decomposed/bowl_141.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_142" file="measured/decomposed/bowl_142.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_143" file="measured/decomposed/bowl_143.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_144" file="measured/decomposed/bowl_144.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_145" file="measured/decomposed/bowl_145.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_146" file="measured/decomposed/bowl_146.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_147" file="measured/decomposed/bowl_147.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_148" file="measured/decomposed/bowl_148.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_149" file="measured/decomposed/bowl_149.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_150" file="measured/decomposed/bowl_150.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_151" file="measured/decomposed/bowl_151.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_152" file="measured/decomposed/bowl_152.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_153" file="measured/decomposed/bowl_153.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_154" file="measured/decomposed/bowl_154.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_155" file="measured/decomposed/bowl_155.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_156" file="measured/decomposed/bowl_156.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_157" file="measured/decomposed/bowl_157.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_158" file="measured/decomposed/bowl_158.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_159" file="measured/decomposed/bowl_159.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_160" file="measured/decomposed/bowl_160.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_161" file="measured/decomposed/bowl_161.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_162" file="measured/decomposed/bowl_162.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_163" file="measured/decomposed/bowl_163.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_164" file="measured/decomposed/bowl_164.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_165" file="measured/decomposed/bowl_165.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_166" file="measured/decomposed/bowl_166.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_167" file="measured/decomposed/bowl_167.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_168" file="measured/decomposed/bowl_168.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_169" file="measured/decomposed/bowl_169.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_170" file="measured/decomposed/bowl_170.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_171" file="measured/decomposed/bowl_171.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_172" file="measured/decomposed/bowl_172.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_173" file="measured/decomposed/bowl_173.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_174" file="measured/decomposed/bowl_174.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_175" file="measured/decomposed/bowl_175.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_176" file="measured/decomposed/bowl_176.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_177" file="measured/decomposed/bowl_177.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_178" file="measured/decomposed/bowl_178.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_179" file="measured/decomposed/bowl_179.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_180" file="measured/decomposed/bowl_180.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_181" file="measured/decomposed/bowl_181.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_182" file="measured/decomposed/bowl_182.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_183" file="measured/decomposed/bowl_183.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_184" file="measured/decomposed/bowl_184.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_185" file="measured/decomposed/bowl_185.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_186" file="measured/decomposed/bowl_186.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_187" file="measured/decomposed/bowl_187.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_188" file="measured/decomposed/bowl_188.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_189" file="measured/decomposed/bowl_189.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_190" file="measured/decomposed/bowl_190.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_191" file="measured/decomposed/bowl_191.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_192" file="measured/decomposed/bowl_192.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_193" file="measured/decomposed/bowl_193.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_194" file="measured/decomposed/bowl_194.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_195" file="measured/decomposed/bowl_195.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_196" file="measured/decomposed/bowl_196.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_197" file="measured/decomposed/bowl_197.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_198" file="measured/decomposed/bowl_198.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_199" file="measured/decomposed/bowl_199.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_200" file="measured/decomposed/bowl_200.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_201" file="measured/decomposed/bowl_201.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_202" file="measured/decomposed/bowl_202.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_203" file="measured/decomposed/bowl_203.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_204" file="measured/decomposed/bowl_204.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_205" file="measured/decomposed/bowl_205.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_206" file="measured/decomposed/bowl_206.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_207" file="measured/decomposed/bowl_207.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_208" file="measured/decomposed/bowl_208.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_209" file="measured/decomposed/bowl_209.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_210" file="measured/decomposed/bowl_210.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_211" file="measured/decomposed/bowl_211.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_212" file="measured/decomposed/bowl_212.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_213" file="measured/decomposed/bowl_213.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_214" file="measured/decomposed/bowl_214.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_215" file="measured/decomposed/bowl_215.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_216" file="measured/decomposed/bowl_216.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_217" file="measured/decomposed/bowl_217.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_218" file="measured/decomposed/bowl_218.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_219" file="measured/decomposed/bowl_219.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_220" file="measured/decomposed/bowl_220.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_221" file="measured/decomposed/bowl_221.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_222" file="measured/decomposed/bowl_222.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_223" file="measured/decomposed/bowl_223.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_224" file="measured/decomposed/bowl_224.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_225" file="measured/decomposed/bowl_225.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_226" file="measured/decomposed/bowl_226.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_227" file="measured/decomposed/bowl_227.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_228" file="measured/decomposed/bowl_228.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_229" file="measured/decomposed/bowl_229.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_230" file="measured/decomposed/bowl_230.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_231" file="measured/decomposed/bowl_231.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_232" file="measured/decomposed/bowl_232.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_233" file="measured/decomposed/bowl_233.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_234" file="measured/decomposed/bowl_234.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_235" file="measured/decomposed/bowl_235.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_236" file="measured/decomposed/bowl_236.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_237" file="measured/decomposed/bowl_237.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_238" file="measured/decomposed/bowl_238.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_239" file="measured/decomposed/bowl_239.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_240" file="measured/decomposed/bowl_240.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_241" file="measured/decomposed/bowl_241.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_242" file="measured/decomposed/bowl_242.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_243" file="measured/decomposed/bowl_243.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_244" file="measured/decomposed/bowl_244.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_245" file="measured/decomposed/bowl_245.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_246" file="measured/decomposed/bowl_246.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_247" file="measured/decomposed/bowl_247.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_248" file="measured/decomposed/bowl_248.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_249" file="measured/decomposed/bowl_249.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_250" file="measured/decomposed/bowl_250.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_251" file="measured/decomposed/bowl_251.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_252" file="measured/decomposed/bowl_252.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_253" file="measured/decomposed/bowl_253.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_254" file="measured/decomposed/bowl_254.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_255" file="measured/decomposed/bowl_255.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_256" file="measured/decomposed/bowl_256.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_257" file="measured/decomposed/bowl_257.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_258" file="measured/decomposed/bowl_258.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_259" file="measured/decomposed/bowl_259.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_260" file="measured/decomposed/bowl_260.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_261" file="measured/decomposed/bowl_261.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_262" file="measured/decomposed/bowl_262.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_263" file="measured/decomposed/bowl_263.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_264" file="measured/decomposed/bowl_264.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_265" file="measured/decomposed/bowl_265.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_266" file="measured/decomposed/bowl_266.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_267" file="measured/decomposed/bowl_267.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_268" file="measured/decomposed/bowl_268.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_269" file="measured/decomposed/bowl_269.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_270" file="measured/decomposed/bowl_270.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_271" file="measured/decomposed/bowl_271.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_272" file="measured/decomposed/bowl_272.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_273" file="measured/decomposed/bowl_273.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_274" file="measured/decomposed/bowl_274.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_275" file="measured/decomposed/bowl_275.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_276" file="measured/decomposed/bowl_276.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_277" file="measured/decomposed/bowl_277.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_278" file="measured/decomposed/bowl_278.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_279" file="measured/decomposed/bowl_279.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_280" file="measured/decomposed/bowl_280.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_281" file="measured/decomposed/bowl_281.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_282" file="measured/decomposed/bowl_282.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_283" file="measured/decomposed/bowl_283.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_284" file="measured/decomposed/bowl_284.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_285" file="measured/decomposed/bowl_285.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_286" file="measured/decomposed/bowl_286.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_287" file="measured/decomposed/bowl_287.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_288" file="measured/decomposed/bowl_288.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_289" file="measured/decomposed/bowl_289.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_290" file="measured/decomposed/bowl_290.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_291" file="measured/decomposed/bowl_291.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_292" file="measured/decomposed/bowl_292.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_293" file="measured/decomposed/bowl_293.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_294" file="measured/decomposed/bowl_294.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_295" file="measured/decomposed/bowl_295.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_296" file="measured/decomposed/bowl_296.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_297" file="measured/decomposed/bowl_297.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_298" file="measured/decomposed/bowl_298.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_299" file="measured/decomposed/bowl_299.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_300" file="measured/decomposed/bowl_300.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_301" file="measured/decomposed/bowl_301.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_302" file="measured/decomposed/bowl_302.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_303" file="measured/decomposed/bowl_303.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_304" file="measured/decomposed/bowl_304.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_305" file="measured/decomposed/bowl_305.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_306" file="measured/decomposed/bowl_306.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_307" file="measured/decomposed/bowl_307.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_308" file="measured/decomposed/bowl_308.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_309" file="measured/decomposed/bowl_309.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_310" file="measured/decomposed/bowl_310.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_311" file="measured/decomposed/bowl_311.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_312" file="measured/decomposed/bowl_312.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_313" file="measured/decomposed/bowl_313.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_314" file="measured/decomposed/bowl_314.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_315" file="measured/decomposed/bowl_315.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_316" file="measured/decomposed/bowl_316.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_317" file="measured/decomposed/bowl_317.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_318" file="measured/decomposed/bowl_318.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_319" file="measured/decomposed/bowl_319.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_320" file="measured/decomposed/bowl_320.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_321" file="measured/decomposed/bowl_321.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_322" file="measured/decomposed/bowl_322.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_323" file="measured/decomposed/bowl_323.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_324" file="measured/decomposed/bowl_324.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_325" file="measured/decomposed/bowl_325.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_326" file="measured/decomposed/bowl_326.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_327" file="measured/decomposed/bowl_327.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_328" file="measured/decomposed/bowl_328.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_329" file="measured/decomposed/bowl_329.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_330" file="measured/decomposed/bowl_330.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_331" file="measured/decomposed/bowl_331.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_332" file="measured/decomposed/bowl_332.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_333" file="measured/decomposed/bowl_333.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_334" file="measured/decomposed/bowl_334.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_335" file="measured/decomposed/bowl_335.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_336" file="measured/decomposed/bowl_336.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_337" file="measured/decomposed/bowl_337.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_338" file="measured/decomposed/bowl_338.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_339" file="measured/decomposed/bowl_339.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_340" file="measured/decomposed/bowl_340.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_341" file="measured/decomposed/bowl_341.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_342" file="measured/decomposed/bowl_342.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_343" file="measured/decomposed/bowl_343.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_344" file="measured/decomposed/bowl_344.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_345" file="measured/decomposed/bowl_345.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_346" file="measured/decomposed/bowl_346.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_347" file="measured/decomposed/bowl_347.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_348" file="measured/decomposed/bowl_348.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_349" file="measured/decomposed/bowl_349.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_350" file="measured/decomposed/bowl_350.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_351" file="measured/decomposed/bowl_351.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_352" file="measured/decomposed/bowl_352.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_353" file="measured/decomposed/bowl_353.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_354" file="measured/decomposed/bowl_354.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_355" file="measured/decomposed/bowl_355.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_356" file="measured/decomposed/bowl_356.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_357" file="measured/decomposed/bowl_357.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_358" file="measured/decomposed/bowl_358.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_359" file="measured/decomposed/bowl_359.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_360" file="measured/decomposed/bowl_360.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_361" file="measured/decomposed/bowl_361.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_362" file="measured/decomposed/bowl_362.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_363" file="measured/decomposed/bowl_363.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_364" file="measured/decomposed/bowl_364.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_365" file="measured/decomposed/bowl_365.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_366" file="measured/decomposed/bowl_366.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_367" file="measured/decomposed/bowl_367.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_368" file="measured/decomposed/bowl_368.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_369" file="measured/decomposed/bowl_369.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_370" file="measured/decomposed/bowl_370.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_371" file="measured/decomposed/bowl_371.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_372" file="measured/decomposed/bowl_372.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_373" file="measured/decomposed/bowl_373.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_374" file="measured/decomposed/bowl_374.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_375" file="measured/decomposed/bowl_375.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_376" file="measured/decomposed/bowl_376.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_377" file="measured/decomposed/bowl_377.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_378" file="measured/decomposed/bowl_378.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_379" file="measured/decomposed/bowl_379.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_380" file="measured/decomposed/bowl_380.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_381" file="measured/decomposed/bowl_381.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_382" file="measured/decomposed/bowl_382.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_383" file="measured/decomposed/bowl_383.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_384" file="measured/decomposed/bowl_384.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_385" file="measured/decomposed/bowl_385.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_386" file="measured/decomposed/bowl_386.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_387" file="measured/decomposed/bowl_387.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_388" file="measured/decomposed/bowl_388.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_389" file="measured/decomposed/bowl_389.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_390" file="measured/decomposed/bowl_390.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_391" file="measured/decomposed/bowl_391.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_392" file="measured/decomposed/bowl_392.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_393" file="measured/decomposed/bowl_393.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_394" file="measured/decomposed/bowl_394.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_395" file="measured/decomposed/bowl_395.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_396" file="measured/decomposed/bowl_396.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_397" file="measured/decomposed/bowl_397.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_398" file="measured/decomposed/bowl_398.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_399" file="measured/decomposed/bowl_399.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_400" file="measured/decomposed/bowl_400.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_401" file="measured/decomposed/bowl_401.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_402" file="measured/decomposed/bowl_402.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_403" file="measured/decomposed/bowl_403.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_404" file="measured/decomposed/bowl_404.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_405" file="measured/decomposed/bowl_405.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_406" file="measured/decomposed/bowl_406.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_407" file="measured/decomposed/bowl_407.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_408" file="measured/decomposed/bowl_408.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_409" file="measured/decomposed/bowl_409.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_410" file="measured/decomposed/bowl_410.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_411" file="measured/decomposed/bowl_411.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_412" file="measured/decomposed/bowl_412.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_413" file="measured/decomposed/bowl_413.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_414" file="measured/decomposed/bowl_414.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_415" file="measured/decomposed/bowl_415.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_416" file="measured/decomposed/bowl_416.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_417" file="measured/decomposed/bowl_417.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_418" file="measured/decomposed/bowl_418.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_419" file="measured/decomposed/bowl_419.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_420" file="measured/decomposed/bowl_420.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_421" file="measured/decomposed/bowl_421.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_422" file="measured/decomposed/bowl_422.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_423" file="measured/decomposed/bowl_423.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_424" file="measured/decomposed/bowl_424.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_425" file="measured/decomposed/bowl_425.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_426" file="measured/decomposed/bowl_426.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_427" file="measured/decomposed/bowl_427.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_428" file="measured/decomposed/bowl_428.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_429" file="measured/decomposed/bowl_429.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_430" file="measured/decomposed/bowl_430.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_431" file="measured/decomposed/bowl_431.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_432" file="measured/decomposed/bowl_432.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_433" file="measured/decomposed/bowl_433.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_434" file="measured/decomposed/bowl_434.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_435" file="measured/decomposed/bowl_435.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_436" file="measured/decomposed/bowl_436.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_437" file="measured/decomposed/bowl_437.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_438" file="measured/decomposed/bowl_438.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_439" file="measured/decomposed/bowl_439.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_440" file="measured/decomposed/bowl_440.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_441" file="measured/decomposed/bowl_441.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_442" file="measured/decomposed/bowl_442.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_443" file="measured/decomposed/bowl_443.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_444" file="measured/decomposed/bowl_444.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_445" file="measured/decomposed/bowl_445.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_446" file="measured/decomposed/bowl_446.obj" scale="1 1 1" />
+    <mesh name="002_bowl_8_part_447" file="measured/decomposed/bowl_447.obj" scale="1 1 1" />
+  </asset>
+  <worldbody>
+    <body name="002_bowl_8">
+      <geom name="002_bowl_8_visual" type="mesh" mesh="002_bowl_8_mesh" contype="0" conaffinity="0" mass="0" group="2" rgba="0.4 0.6 0.7 1" />
+      <geom name="002_bowl_8_geom_0" type="mesh" mesh="002_bowl_8_part_0" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_1" type="mesh" mesh="002_bowl_8_part_1" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_2" type="mesh" mesh="002_bowl_8_part_2" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_3" type="mesh" mesh="002_bowl_8_part_3" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_4" type="mesh" mesh="002_bowl_8_part_4" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_5" type="mesh" mesh="002_bowl_8_part_5" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_6" type="mesh" mesh="002_bowl_8_part_6" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_7" type="mesh" mesh="002_bowl_8_part_7" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_8" type="mesh" mesh="002_bowl_8_part_8" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_9" type="mesh" mesh="002_bowl_8_part_9" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_10" type="mesh" mesh="002_bowl_8_part_10" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_11" type="mesh" mesh="002_bowl_8_part_11" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_12" type="mesh" mesh="002_bowl_8_part_12" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_13" type="mesh" mesh="002_bowl_8_part_13" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_14" type="mesh" mesh="002_bowl_8_part_14" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_15" type="mesh" mesh="002_bowl_8_part_15" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_16" type="mesh" mesh="002_bowl_8_part_16" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_17" type="mesh" mesh="002_bowl_8_part_17" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_18" type="mesh" mesh="002_bowl_8_part_18" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_19" type="mesh" mesh="002_bowl_8_part_19" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_20" type="mesh" mesh="002_bowl_8_part_20" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_21" type="mesh" mesh="002_bowl_8_part_21" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_22" type="mesh" mesh="002_bowl_8_part_22" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_23" type="mesh" mesh="002_bowl_8_part_23" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_24" type="mesh" mesh="002_bowl_8_part_24" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_25" type="mesh" mesh="002_bowl_8_part_25" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_26" type="mesh" mesh="002_bowl_8_part_26" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_27" type="mesh" mesh="002_bowl_8_part_27" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_28" type="mesh" mesh="002_bowl_8_part_28" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_29" type="mesh" mesh="002_bowl_8_part_29" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_30" type="mesh" mesh="002_bowl_8_part_30" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_31" type="mesh" mesh="002_bowl_8_part_31" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_32" type="mesh" mesh="002_bowl_8_part_32" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_33" type="mesh" mesh="002_bowl_8_part_33" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_34" type="mesh" mesh="002_bowl_8_part_34" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_35" type="mesh" mesh="002_bowl_8_part_35" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_36" type="mesh" mesh="002_bowl_8_part_36" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_37" type="mesh" mesh="002_bowl_8_part_37" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_38" type="mesh" mesh="002_bowl_8_part_38" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_39" type="mesh" mesh="002_bowl_8_part_39" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_40" type="mesh" mesh="002_bowl_8_part_40" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_41" type="mesh" mesh="002_bowl_8_part_41" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_42" type="mesh" mesh="002_bowl_8_part_42" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_43" type="mesh" mesh="002_bowl_8_part_43" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_44" type="mesh" mesh="002_bowl_8_part_44" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_45" type="mesh" mesh="002_bowl_8_part_45" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_46" type="mesh" mesh="002_bowl_8_part_46" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_47" type="mesh" mesh="002_bowl_8_part_47" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_48" type="mesh" mesh="002_bowl_8_part_48" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_49" type="mesh" mesh="002_bowl_8_part_49" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_50" type="mesh" mesh="002_bowl_8_part_50" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_51" type="mesh" mesh="002_bowl_8_part_51" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_52" type="mesh" mesh="002_bowl_8_part_52" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_53" type="mesh" mesh="002_bowl_8_part_53" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_54" type="mesh" mesh="002_bowl_8_part_54" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_55" type="mesh" mesh="002_bowl_8_part_55" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_56" type="mesh" mesh="002_bowl_8_part_56" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_57" type="mesh" mesh="002_bowl_8_part_57" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_58" type="mesh" mesh="002_bowl_8_part_58" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_59" type="mesh" mesh="002_bowl_8_part_59" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_60" type="mesh" mesh="002_bowl_8_part_60" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_61" type="mesh" mesh="002_bowl_8_part_61" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_62" type="mesh" mesh="002_bowl_8_part_62" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_63" type="mesh" mesh="002_bowl_8_part_63" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_64" type="mesh" mesh="002_bowl_8_part_64" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_65" type="mesh" mesh="002_bowl_8_part_65" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_66" type="mesh" mesh="002_bowl_8_part_66" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_67" type="mesh" mesh="002_bowl_8_part_67" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_68" type="mesh" mesh="002_bowl_8_part_68" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_69" type="mesh" mesh="002_bowl_8_part_69" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_70" type="mesh" mesh="002_bowl_8_part_70" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_71" type="mesh" mesh="002_bowl_8_part_71" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_72" type="mesh" mesh="002_bowl_8_part_72" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_73" type="mesh" mesh="002_bowl_8_part_73" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_74" type="mesh" mesh="002_bowl_8_part_74" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_75" type="mesh" mesh="002_bowl_8_part_75" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_76" type="mesh" mesh="002_bowl_8_part_76" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_77" type="mesh" mesh="002_bowl_8_part_77" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_78" type="mesh" mesh="002_bowl_8_part_78" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_79" type="mesh" mesh="002_bowl_8_part_79" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_80" type="mesh" mesh="002_bowl_8_part_80" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_81" type="mesh" mesh="002_bowl_8_part_81" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_82" type="mesh" mesh="002_bowl_8_part_82" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_83" type="mesh" mesh="002_bowl_8_part_83" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_84" type="mesh" mesh="002_bowl_8_part_84" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_85" type="mesh" mesh="002_bowl_8_part_85" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_86" type="mesh" mesh="002_bowl_8_part_86" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_87" type="mesh" mesh="002_bowl_8_part_87" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_88" type="mesh" mesh="002_bowl_8_part_88" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_89" type="mesh" mesh="002_bowl_8_part_89" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_90" type="mesh" mesh="002_bowl_8_part_90" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_91" type="mesh" mesh="002_bowl_8_part_91" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_92" type="mesh" mesh="002_bowl_8_part_92" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_93" type="mesh" mesh="002_bowl_8_part_93" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_94" type="mesh" mesh="002_bowl_8_part_94" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_95" type="mesh" mesh="002_bowl_8_part_95" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_96" type="mesh" mesh="002_bowl_8_part_96" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_97" type="mesh" mesh="002_bowl_8_part_97" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_98" type="mesh" mesh="002_bowl_8_part_98" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_99" type="mesh" mesh="002_bowl_8_part_99" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_100" type="mesh" mesh="002_bowl_8_part_100" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_101" type="mesh" mesh="002_bowl_8_part_101" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_102" type="mesh" mesh="002_bowl_8_part_102" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_103" type="mesh" mesh="002_bowl_8_part_103" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_104" type="mesh" mesh="002_bowl_8_part_104" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_105" type="mesh" mesh="002_bowl_8_part_105" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_106" type="mesh" mesh="002_bowl_8_part_106" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_107" type="mesh" mesh="002_bowl_8_part_107" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_108" type="mesh" mesh="002_bowl_8_part_108" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_109" type="mesh" mesh="002_bowl_8_part_109" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_110" type="mesh" mesh="002_bowl_8_part_110" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_111" type="mesh" mesh="002_bowl_8_part_111" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_112" type="mesh" mesh="002_bowl_8_part_112" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_113" type="mesh" mesh="002_bowl_8_part_113" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_114" type="mesh" mesh="002_bowl_8_part_114" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_115" type="mesh" mesh="002_bowl_8_part_115" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_116" type="mesh" mesh="002_bowl_8_part_116" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_117" type="mesh" mesh="002_bowl_8_part_117" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_118" type="mesh" mesh="002_bowl_8_part_118" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_119" type="mesh" mesh="002_bowl_8_part_119" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_120" type="mesh" mesh="002_bowl_8_part_120" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_121" type="mesh" mesh="002_bowl_8_part_121" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_122" type="mesh" mesh="002_bowl_8_part_122" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_123" type="mesh" mesh="002_bowl_8_part_123" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_124" type="mesh" mesh="002_bowl_8_part_124" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_125" type="mesh" mesh="002_bowl_8_part_125" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_126" type="mesh" mesh="002_bowl_8_part_126" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_127" type="mesh" mesh="002_bowl_8_part_127" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_128" type="mesh" mesh="002_bowl_8_part_128" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_129" type="mesh" mesh="002_bowl_8_part_129" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_130" type="mesh" mesh="002_bowl_8_part_130" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_131" type="mesh" mesh="002_bowl_8_part_131" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_132" type="mesh" mesh="002_bowl_8_part_132" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_133" type="mesh" mesh="002_bowl_8_part_133" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_134" type="mesh" mesh="002_bowl_8_part_134" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_135" type="mesh" mesh="002_bowl_8_part_135" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_136" type="mesh" mesh="002_bowl_8_part_136" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_137" type="mesh" mesh="002_bowl_8_part_137" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_138" type="mesh" mesh="002_bowl_8_part_138" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_139" type="mesh" mesh="002_bowl_8_part_139" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_140" type="mesh" mesh="002_bowl_8_part_140" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_141" type="mesh" mesh="002_bowl_8_part_141" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_142" type="mesh" mesh="002_bowl_8_part_142" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_143" type="mesh" mesh="002_bowl_8_part_143" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_144" type="mesh" mesh="002_bowl_8_part_144" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_145" type="mesh" mesh="002_bowl_8_part_145" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_146" type="mesh" mesh="002_bowl_8_part_146" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_147" type="mesh" mesh="002_bowl_8_part_147" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_148" type="mesh" mesh="002_bowl_8_part_148" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_149" type="mesh" mesh="002_bowl_8_part_149" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_150" type="mesh" mesh="002_bowl_8_part_150" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_151" type="mesh" mesh="002_bowl_8_part_151" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_152" type="mesh" mesh="002_bowl_8_part_152" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_153" type="mesh" mesh="002_bowl_8_part_153" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_154" type="mesh" mesh="002_bowl_8_part_154" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_155" type="mesh" mesh="002_bowl_8_part_155" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_156" type="mesh" mesh="002_bowl_8_part_156" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_157" type="mesh" mesh="002_bowl_8_part_157" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_158" type="mesh" mesh="002_bowl_8_part_158" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_159" type="mesh" mesh="002_bowl_8_part_159" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_160" type="mesh" mesh="002_bowl_8_part_160" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_161" type="mesh" mesh="002_bowl_8_part_161" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_162" type="mesh" mesh="002_bowl_8_part_162" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_163" type="mesh" mesh="002_bowl_8_part_163" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_164" type="mesh" mesh="002_bowl_8_part_164" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_165" type="mesh" mesh="002_bowl_8_part_165" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_166" type="mesh" mesh="002_bowl_8_part_166" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_167" type="mesh" mesh="002_bowl_8_part_167" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_168" type="mesh" mesh="002_bowl_8_part_168" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_169" type="mesh" mesh="002_bowl_8_part_169" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_170" type="mesh" mesh="002_bowl_8_part_170" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_171" type="mesh" mesh="002_bowl_8_part_171" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_172" type="mesh" mesh="002_bowl_8_part_172" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_173" type="mesh" mesh="002_bowl_8_part_173" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_174" type="mesh" mesh="002_bowl_8_part_174" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_175" type="mesh" mesh="002_bowl_8_part_175" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_176" type="mesh" mesh="002_bowl_8_part_176" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_177" type="mesh" mesh="002_bowl_8_part_177" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_178" type="mesh" mesh="002_bowl_8_part_178" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_179" type="mesh" mesh="002_bowl_8_part_179" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_180" type="mesh" mesh="002_bowl_8_part_180" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_181" type="mesh" mesh="002_bowl_8_part_181" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_182" type="mesh" mesh="002_bowl_8_part_182" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_183" type="mesh" mesh="002_bowl_8_part_183" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_184" type="mesh" mesh="002_bowl_8_part_184" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_185" type="mesh" mesh="002_bowl_8_part_185" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_186" type="mesh" mesh="002_bowl_8_part_186" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_187" type="mesh" mesh="002_bowl_8_part_187" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_188" type="mesh" mesh="002_bowl_8_part_188" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_189" type="mesh" mesh="002_bowl_8_part_189" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_190" type="mesh" mesh="002_bowl_8_part_190" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_191" type="mesh" mesh="002_bowl_8_part_191" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_192" type="mesh" mesh="002_bowl_8_part_192" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_193" type="mesh" mesh="002_bowl_8_part_193" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_194" type="mesh" mesh="002_bowl_8_part_194" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_195" type="mesh" mesh="002_bowl_8_part_195" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_196" type="mesh" mesh="002_bowl_8_part_196" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_197" type="mesh" mesh="002_bowl_8_part_197" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_198" type="mesh" mesh="002_bowl_8_part_198" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_199" type="mesh" mesh="002_bowl_8_part_199" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_200" type="mesh" mesh="002_bowl_8_part_200" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_201" type="mesh" mesh="002_bowl_8_part_201" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_202" type="mesh" mesh="002_bowl_8_part_202" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_203" type="mesh" mesh="002_bowl_8_part_203" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_204" type="mesh" mesh="002_bowl_8_part_204" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_205" type="mesh" mesh="002_bowl_8_part_205" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_206" type="mesh" mesh="002_bowl_8_part_206" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_207" type="mesh" mesh="002_bowl_8_part_207" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_208" type="mesh" mesh="002_bowl_8_part_208" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_209" type="mesh" mesh="002_bowl_8_part_209" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_210" type="mesh" mesh="002_bowl_8_part_210" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_211" type="mesh" mesh="002_bowl_8_part_211" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_212" type="mesh" mesh="002_bowl_8_part_212" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_213" type="mesh" mesh="002_bowl_8_part_213" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_214" type="mesh" mesh="002_bowl_8_part_214" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_215" type="mesh" mesh="002_bowl_8_part_215" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_216" type="mesh" mesh="002_bowl_8_part_216" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_217" type="mesh" mesh="002_bowl_8_part_217" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_218" type="mesh" mesh="002_bowl_8_part_218" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_219" type="mesh" mesh="002_bowl_8_part_219" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_220" type="mesh" mesh="002_bowl_8_part_220" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_221" type="mesh" mesh="002_bowl_8_part_221" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_222" type="mesh" mesh="002_bowl_8_part_222" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_223" type="mesh" mesh="002_bowl_8_part_223" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_224" type="mesh" mesh="002_bowl_8_part_224" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_225" type="mesh" mesh="002_bowl_8_part_225" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_226" type="mesh" mesh="002_bowl_8_part_226" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_227" type="mesh" mesh="002_bowl_8_part_227" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_228" type="mesh" mesh="002_bowl_8_part_228" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_229" type="mesh" mesh="002_bowl_8_part_229" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_230" type="mesh" mesh="002_bowl_8_part_230" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_231" type="mesh" mesh="002_bowl_8_part_231" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_232" type="mesh" mesh="002_bowl_8_part_232" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_233" type="mesh" mesh="002_bowl_8_part_233" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_234" type="mesh" mesh="002_bowl_8_part_234" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_235" type="mesh" mesh="002_bowl_8_part_235" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_236" type="mesh" mesh="002_bowl_8_part_236" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_237" type="mesh" mesh="002_bowl_8_part_237" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_238" type="mesh" mesh="002_bowl_8_part_238" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_239" type="mesh" mesh="002_bowl_8_part_239" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_240" type="mesh" mesh="002_bowl_8_part_240" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_241" type="mesh" mesh="002_bowl_8_part_241" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_242" type="mesh" mesh="002_bowl_8_part_242" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_243" type="mesh" mesh="002_bowl_8_part_243" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_244" type="mesh" mesh="002_bowl_8_part_244" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_245" type="mesh" mesh="002_bowl_8_part_245" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_246" type="mesh" mesh="002_bowl_8_part_246" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_247" type="mesh" mesh="002_bowl_8_part_247" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_248" type="mesh" mesh="002_bowl_8_part_248" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_249" type="mesh" mesh="002_bowl_8_part_249" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_250" type="mesh" mesh="002_bowl_8_part_250" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_251" type="mesh" mesh="002_bowl_8_part_251" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_252" type="mesh" mesh="002_bowl_8_part_252" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_253" type="mesh" mesh="002_bowl_8_part_253" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_254" type="mesh" mesh="002_bowl_8_part_254" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_255" type="mesh" mesh="002_bowl_8_part_255" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_256" type="mesh" mesh="002_bowl_8_part_256" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_257" type="mesh" mesh="002_bowl_8_part_257" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_258" type="mesh" mesh="002_bowl_8_part_258" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_259" type="mesh" mesh="002_bowl_8_part_259" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_260" type="mesh" mesh="002_bowl_8_part_260" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_261" type="mesh" mesh="002_bowl_8_part_261" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_262" type="mesh" mesh="002_bowl_8_part_262" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_263" type="mesh" mesh="002_bowl_8_part_263" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_264" type="mesh" mesh="002_bowl_8_part_264" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_265" type="mesh" mesh="002_bowl_8_part_265" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_266" type="mesh" mesh="002_bowl_8_part_266" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_267" type="mesh" mesh="002_bowl_8_part_267" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_268" type="mesh" mesh="002_bowl_8_part_268" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_269" type="mesh" mesh="002_bowl_8_part_269" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_270" type="mesh" mesh="002_bowl_8_part_270" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_271" type="mesh" mesh="002_bowl_8_part_271" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_272" type="mesh" mesh="002_bowl_8_part_272" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_273" type="mesh" mesh="002_bowl_8_part_273" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_274" type="mesh" mesh="002_bowl_8_part_274" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_275" type="mesh" mesh="002_bowl_8_part_275" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_276" type="mesh" mesh="002_bowl_8_part_276" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_277" type="mesh" mesh="002_bowl_8_part_277" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_278" type="mesh" mesh="002_bowl_8_part_278" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_279" type="mesh" mesh="002_bowl_8_part_279" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_280" type="mesh" mesh="002_bowl_8_part_280" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_281" type="mesh" mesh="002_bowl_8_part_281" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_282" type="mesh" mesh="002_bowl_8_part_282" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_283" type="mesh" mesh="002_bowl_8_part_283" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_284" type="mesh" mesh="002_bowl_8_part_284" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_285" type="mesh" mesh="002_bowl_8_part_285" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_286" type="mesh" mesh="002_bowl_8_part_286" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_287" type="mesh" mesh="002_bowl_8_part_287" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_288" type="mesh" mesh="002_bowl_8_part_288" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_289" type="mesh" mesh="002_bowl_8_part_289" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_290" type="mesh" mesh="002_bowl_8_part_290" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_291" type="mesh" mesh="002_bowl_8_part_291" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_292" type="mesh" mesh="002_bowl_8_part_292" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_293" type="mesh" mesh="002_bowl_8_part_293" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_294" type="mesh" mesh="002_bowl_8_part_294" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_295" type="mesh" mesh="002_bowl_8_part_295" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_296" type="mesh" mesh="002_bowl_8_part_296" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_297" type="mesh" mesh="002_bowl_8_part_297" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_298" type="mesh" mesh="002_bowl_8_part_298" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_299" type="mesh" mesh="002_bowl_8_part_299" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_300" type="mesh" mesh="002_bowl_8_part_300" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_301" type="mesh" mesh="002_bowl_8_part_301" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_302" type="mesh" mesh="002_bowl_8_part_302" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_303" type="mesh" mesh="002_bowl_8_part_303" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_304" type="mesh" mesh="002_bowl_8_part_304" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_305" type="mesh" mesh="002_bowl_8_part_305" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_306" type="mesh" mesh="002_bowl_8_part_306" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_307" type="mesh" mesh="002_bowl_8_part_307" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_308" type="mesh" mesh="002_bowl_8_part_308" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_309" type="mesh" mesh="002_bowl_8_part_309" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_310" type="mesh" mesh="002_bowl_8_part_310" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_311" type="mesh" mesh="002_bowl_8_part_311" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_312" type="mesh" mesh="002_bowl_8_part_312" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_313" type="mesh" mesh="002_bowl_8_part_313" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_314" type="mesh" mesh="002_bowl_8_part_314" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_315" type="mesh" mesh="002_bowl_8_part_315" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_316" type="mesh" mesh="002_bowl_8_part_316" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_317" type="mesh" mesh="002_bowl_8_part_317" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_318" type="mesh" mesh="002_bowl_8_part_318" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_319" type="mesh" mesh="002_bowl_8_part_319" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_320" type="mesh" mesh="002_bowl_8_part_320" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_321" type="mesh" mesh="002_bowl_8_part_321" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_322" type="mesh" mesh="002_bowl_8_part_322" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_323" type="mesh" mesh="002_bowl_8_part_323" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_324" type="mesh" mesh="002_bowl_8_part_324" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_325" type="mesh" mesh="002_bowl_8_part_325" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_326" type="mesh" mesh="002_bowl_8_part_326" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_327" type="mesh" mesh="002_bowl_8_part_327" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_328" type="mesh" mesh="002_bowl_8_part_328" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_329" type="mesh" mesh="002_bowl_8_part_329" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_330" type="mesh" mesh="002_bowl_8_part_330" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_331" type="mesh" mesh="002_bowl_8_part_331" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_332" type="mesh" mesh="002_bowl_8_part_332" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_333" type="mesh" mesh="002_bowl_8_part_333" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_334" type="mesh" mesh="002_bowl_8_part_334" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_335" type="mesh" mesh="002_bowl_8_part_335" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_336" type="mesh" mesh="002_bowl_8_part_336" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_337" type="mesh" mesh="002_bowl_8_part_337" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_338" type="mesh" mesh="002_bowl_8_part_338" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_339" type="mesh" mesh="002_bowl_8_part_339" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_340" type="mesh" mesh="002_bowl_8_part_340" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_341" type="mesh" mesh="002_bowl_8_part_341" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_342" type="mesh" mesh="002_bowl_8_part_342" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_343" type="mesh" mesh="002_bowl_8_part_343" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_344" type="mesh" mesh="002_bowl_8_part_344" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_345" type="mesh" mesh="002_bowl_8_part_345" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_346" type="mesh" mesh="002_bowl_8_part_346" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_347" type="mesh" mesh="002_bowl_8_part_347" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_348" type="mesh" mesh="002_bowl_8_part_348" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_349" type="mesh" mesh="002_bowl_8_part_349" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_350" type="mesh" mesh="002_bowl_8_part_350" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_351" type="mesh" mesh="002_bowl_8_part_351" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_352" type="mesh" mesh="002_bowl_8_part_352" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_353" type="mesh" mesh="002_bowl_8_part_353" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_354" type="mesh" mesh="002_bowl_8_part_354" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_355" type="mesh" mesh="002_bowl_8_part_355" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_356" type="mesh" mesh="002_bowl_8_part_356" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_357" type="mesh" mesh="002_bowl_8_part_357" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_358" type="mesh" mesh="002_bowl_8_part_358" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_359" type="mesh" mesh="002_bowl_8_part_359" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_360" type="mesh" mesh="002_bowl_8_part_360" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_361" type="mesh" mesh="002_bowl_8_part_361" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_362" type="mesh" mesh="002_bowl_8_part_362" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_363" type="mesh" mesh="002_bowl_8_part_363" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_364" type="mesh" mesh="002_bowl_8_part_364" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_365" type="mesh" mesh="002_bowl_8_part_365" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_366" type="mesh" mesh="002_bowl_8_part_366" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_367" type="mesh" mesh="002_bowl_8_part_367" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_368" type="mesh" mesh="002_bowl_8_part_368" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_369" type="mesh" mesh="002_bowl_8_part_369" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_370" type="mesh" mesh="002_bowl_8_part_370" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_371" type="mesh" mesh="002_bowl_8_part_371" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_372" type="mesh" mesh="002_bowl_8_part_372" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_373" type="mesh" mesh="002_bowl_8_part_373" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_374" type="mesh" mesh="002_bowl_8_part_374" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_375" type="mesh" mesh="002_bowl_8_part_375" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_376" type="mesh" mesh="002_bowl_8_part_376" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_377" type="mesh" mesh="002_bowl_8_part_377" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_378" type="mesh" mesh="002_bowl_8_part_378" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_379" type="mesh" mesh="002_bowl_8_part_379" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_380" type="mesh" mesh="002_bowl_8_part_380" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_381" type="mesh" mesh="002_bowl_8_part_381" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_382" type="mesh" mesh="002_bowl_8_part_382" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_383" type="mesh" mesh="002_bowl_8_part_383" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_384" type="mesh" mesh="002_bowl_8_part_384" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_385" type="mesh" mesh="002_bowl_8_part_385" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_386" type="mesh" mesh="002_bowl_8_part_386" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_387" type="mesh" mesh="002_bowl_8_part_387" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_388" type="mesh" mesh="002_bowl_8_part_388" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_389" type="mesh" mesh="002_bowl_8_part_389" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_390" type="mesh" mesh="002_bowl_8_part_390" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_391" type="mesh" mesh="002_bowl_8_part_391" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_392" type="mesh" mesh="002_bowl_8_part_392" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_393" type="mesh" mesh="002_bowl_8_part_393" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_394" type="mesh" mesh="002_bowl_8_part_394" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_395" type="mesh" mesh="002_bowl_8_part_395" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_396" type="mesh" mesh="002_bowl_8_part_396" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_397" type="mesh" mesh="002_bowl_8_part_397" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_398" type="mesh" mesh="002_bowl_8_part_398" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_399" type="mesh" mesh="002_bowl_8_part_399" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_400" type="mesh" mesh="002_bowl_8_part_400" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_401" type="mesh" mesh="002_bowl_8_part_401" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_402" type="mesh" mesh="002_bowl_8_part_402" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_403" type="mesh" mesh="002_bowl_8_part_403" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_404" type="mesh" mesh="002_bowl_8_part_404" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_405" type="mesh" mesh="002_bowl_8_part_405" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_406" type="mesh" mesh="002_bowl_8_part_406" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_407" type="mesh" mesh="002_bowl_8_part_407" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_408" type="mesh" mesh="002_bowl_8_part_408" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_409" type="mesh" mesh="002_bowl_8_part_409" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_410" type="mesh" mesh="002_bowl_8_part_410" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_411" type="mesh" mesh="002_bowl_8_part_411" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_412" type="mesh" mesh="002_bowl_8_part_412" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_413" type="mesh" mesh="002_bowl_8_part_413" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_414" type="mesh" mesh="002_bowl_8_part_414" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_415" type="mesh" mesh="002_bowl_8_part_415" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_416" type="mesh" mesh="002_bowl_8_part_416" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_417" type="mesh" mesh="002_bowl_8_part_417" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_418" type="mesh" mesh="002_bowl_8_part_418" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_419" type="mesh" mesh="002_bowl_8_part_419" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_420" type="mesh" mesh="002_bowl_8_part_420" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_421" type="mesh" mesh="002_bowl_8_part_421" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_422" type="mesh" mesh="002_bowl_8_part_422" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_423" type="mesh" mesh="002_bowl_8_part_423" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_424" type="mesh" mesh="002_bowl_8_part_424" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_425" type="mesh" mesh="002_bowl_8_part_425" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_426" type="mesh" mesh="002_bowl_8_part_426" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_427" type="mesh" mesh="002_bowl_8_part_427" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_428" type="mesh" mesh="002_bowl_8_part_428" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_429" type="mesh" mesh="002_bowl_8_part_429" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_430" type="mesh" mesh="002_bowl_8_part_430" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_431" type="mesh" mesh="002_bowl_8_part_431" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_432" type="mesh" mesh="002_bowl_8_part_432" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_433" type="mesh" mesh="002_bowl_8_part_433" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_434" type="mesh" mesh="002_bowl_8_part_434" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_435" type="mesh" mesh="002_bowl_8_part_435" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_436" type="mesh" mesh="002_bowl_8_part_436" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_437" type="mesh" mesh="002_bowl_8_part_437" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_438" type="mesh" mesh="002_bowl_8_part_438" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_439" type="mesh" mesh="002_bowl_8_part_439" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_440" type="mesh" mesh="002_bowl_8_part_440" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_441" type="mesh" mesh="002_bowl_8_part_441" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_442" type="mesh" mesh="002_bowl_8_part_442" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_443" type="mesh" mesh="002_bowl_8_part_443" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_444" type="mesh" mesh="002_bowl_8_part_444" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_445" type="mesh" mesh="002_bowl_8_part_445" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_446" type="mesh" mesh="002_bowl_8_part_446" group="3" rgba="0 0 0 0" />
+      <geom name="002_bowl_8_geom_447" type="mesh" mesh="002_bowl_8_part_447" group="3" rgba="0 0 0 0" />
+    </body>
+  </worldbody>
+</mujoco>

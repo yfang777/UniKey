@@ -1,0 +1,33 @@
+{
+  "mesh_path": "040_rack_1.stl",
+  "bounding_box": {
+    "x": 0.16402639398906865,
+    "y": 0.157306844444525,
+    "z": 0.34579410069178734
+  },
+  "keypoints": [
+    {
+      "index": 4609,
+      "position": [
+        0.09248550064092075,
+        0.003995282409136325,
+        0.16132346679857423
+      ],
+      "name": "branch tip"
+    },
+    {
+      "index": 2246,
+      "position": [
+        0.016975584506221313,
+        0.004875399569826994,
+        0.12856608167395336
+      ],
+      "name": "branch base"
+    }
+  ],
+  "keypoint_source": "debug/real2sim_rack_dynamics/generated/rack_keypoints_manual.json",
+  "keypoint_selection_order": [
+    2,
+    1
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "mesh_file": "assets/objects/table_arrange/034_spoon/2/034_spoon_2.stl",
+  "asset_version": "v2",
+  "units": "meters",
+  "bounding_box": {
+    "min": [
+      -0.08,
+      -0.015499999999999998,
+      -0.005818945027854842
+    ],
+    "max": [
+      0.08000000000000002,
+      0.0155,
+      0.005818945027854843
+    ],
+    "dimensions": [
+      0.16000000000000003,
+      0.031,
+      0.011637890055709685
+    ]
+  },
+  "keypoints": [
+    {
+      "name": "SPOON_PLACEMENT",
+      "position": [
+        -0.01,
+        -0.00021980719614988738,
+        0.0008934570566470961
+      ]
+    },
+    {
+      "name": "SPOON_GRASP",
+      "position": [
+        -0.04,
+        -0.0002737825637852218,
+        -0.00344091557037534
+      ]
+    },
+    {
+      "name": "SPOON_DIRECTION",
+      "position": [
+        -0.03,
+        -0.0002737825637852218,
+        -0.00344091557037534
+      ]
+    }
+  ],
+  "mass_properties": {
+    "volume": 9.726435526195098e-06,
+    "center_of_mass": [
+      -0.015722550227815345,
+      -7.535045660125236e-05,
+      -0.0005242165886268045
+    ],
+    "inertia_per_kg": [
+      [
+        3.154266907711285e-05,
+        -9.211829936786196e-06,
+        3.409292471224132e-05
+      ],
+      [
+        -9.211829936786196e-06,
+        0.001983118390730396,
+        1.5147849417212786e-07
+      ],
+      [
+        3.409292471224132e-05,
+        1.5147849417212786e-07,
+        0.0020018252655253444
+      ]
+    ]
+  },
+  "measurement": {
+    "source_sha256": "376deb5563377a89d8347bebfe602579b33cba4f67b2ff188686c83b26b7dab1",
+    "source_to_object_transform": [
+      [
+        -0.08437725847913233,
+        0.0,
+        0.0,
+        0.0001257444861605469
+      ],
+      [
+        0.0,
+        0.0,
+        0.08413022727649554,
+        -8.935932219428721e-06
+      ],
+      [
+        0.0,
+        0.06857506648556075,
+        0.0,
+        5.621058774795517e-05
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "aligned_axis_scale": [
+      0.08437725847913233,
+      0.08413022727649554,
+      0.06857506648556075
+    ],
+    "length_m": 0.16000000000000003,
+    "maximum_width_m": 0.031,
+    "handle_maximum_section_height_m": 0.01,
+    "handle_measurement_x_m": -0.05694444881565529,
+    "handle_source_x_interval": [
+      0,
+      0.9496130347251892
+    ],
+    "measurement_method": "Maximum Z extent of constant-X handle cross-sections; excludes bowl and longitudinal curvature.",
+    "total_height_m": 0.011637890055709685
+  },
+  "collision": {
+    "method": "VHACD",
+    "parameters": {
+      "maxConvexHulls": 32,
+      "resolution": 1000000,
+      "minimumVolumePercentErrorAllowed": 0.5,
+      "maxNumVerticesPerCH": 64,
+      "shrinkWrap": true,
+      "asyncACD": false
+    },
+    "parts": 32
+  },
+  "grasp_reference": {
+    "distance_from_tail_m": 0.04,
+    "direction_point_distance_m": 0.01,
+    "surface": "handle underside at the lateral center of the grasp cross-section",
+    "top_surface_z_m": 0.005374849233472151,
+    "local_handle_height_m": 0.00881576480384749,
+    "ee_height_above_grasp_m": 0.019407882401923746
+  }
+}

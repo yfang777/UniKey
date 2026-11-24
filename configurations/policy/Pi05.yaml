@@ -1,0 +1,191 @@
+# Select with --policy_preset NAME. Presets override setting/train keys.
+Pi05:
+  setting:
+    repo_id: unikey
+    policy_infer_freq: 10
+    control_freq: 50
+    action_timestamp_offset: 0.08
+    resize_rgb_image: false
+    n_obs_steps: 1
+    chunk_size: 16
+    action_decay_coeff: 0.02
+    n_action_steps: 16
+    use_relative_action: false
+    lerobot_fps: 50
+    pretrained_policy_path: gs://openpi-assets/checkpoints/pi05_base/params
+    paligemma_variant: gemma_2b
+    action_expert_variant: gemma_300m
+    dtype: bfloat16
+    gradient_checkpointing: false
+    compile_model: false
+    freeze_encoder: false
+    freeze_vision_encoder: false
+    train_expert_only: false
+    max_state_dim: 32
+    max_action_dim: 32
+    tokenizer_max_length: 200
+    discrete_state_input: true
+    image_keys:
+    - base_0_rgb
+    - left_wrist_0_rgb
+    image_normalization: IDENTITY
+    state_normalization: MIN_MAX
+    action_normalization: MIN_MAX
+    num_inference_steps: 10
+    optimizer_lr: 2.5e-05
+    optimizer_betas:
+    - 0.9
+    - 0.95
+    optimizer_eps: 1.0e-08
+    optimizer_weight_decay: 0.01
+    optimizer_grad_clip_norm: 1.0
+    scheduler_warmup_steps: 1000
+    scheduler_decay_steps: 30000
+    scheduler_decay_lr: 2.5e-06
+  train:
+    project_name: Pi05_training
+    num_steps_rgb: 50000
+    num_steps_finetune: 40000
+    batch_size_rgb: 16
+    save_freq: 5000
+    save_freq_finetune: 5000
+    log_every_steps: 100
+    num_workers_rgb: 16
+    fsdp_devices: 2
+    ema_decay: 0.99
+    wandb_enabled: true
+    use_cuda: true
+    dataset_combined_v4:
+      offline: 0.5
+      new_recovery: 0.5
+presets:
+  freeze_encoder:
+    setting:
+      freeze_encoder: true
+      freeze_vision_encoder: true
+    train:
+      project_name: Pi05_freeze_encoder_training
+  action_expert:
+    setting:
+      train_expert_only: true
+    train:
+      project_name: Pi05_action_expert_training
+  full:
+    setting:
+      freeze_llm: false
+    train:
+      project_name: Pi05_full_training
+  lora:
+    setting:
+      paligemma_variant: gemma_2b_lora
+      action_expert_variant: gemma_300m_lora
+      freeze_encoder: true
+      freeze_vision_encoder: true
+      freeze_llm: true
+      train_lora: true
+      visual_encoder_lr_scale: null
+      optimizer_lr: 0.0001
+      optimizer_betas:
+      - 0.95
+      - 0.999
+      optimizer_weight_decay: 1.0e-06
+      scheduler_decay_steps: 20000
+      scheduler_decay_lr: 1.0e-05
+    train:
+      project_name: Pi05_lora_training
+      ema_decay: null
+  encoder:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+    train:
+      project_name: Pi05_encoder_training
+  encoder_absolute_action:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      action_normalization: absolute_action_v1
+    train:
+      project_name: Pi05_encoder_absolute_action_training
+  encoder_absolute_state:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      state_normalization: absolute_state_v1
+      action_normalization: absolute_action_v1
+    train:
+      project_name: Pi05_encoder_absolute_state_training
+  encoder_discrete_state:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      state_discretization:
+        min_value: -1.5
+        max_value: 1.5
+        num_bins: 512
+      state_normalization: absolute_state_v1
+      action_normalization: absolute_action_v1
+      scheduler_warmup_steps: 500
+      scheduler_decay_steps: 10000
+    train:
+      project_name: Pi05_encoder_discrete_state_training
+  encoder_low_lr:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      state_discretization:
+        min_value: -1.5
+        max_value: 1.5
+        num_bins: 512
+      state_normalization: absolute_state_v1
+      action_normalization: absolute_action_v1
+      optimizer_lr: 1e-5
+      scheduler_warmup_steps: 500
+      scheduler_decay_steps: 10000
+      scheduler_decay_lr: 1e-6
+    train:
+      project_name: Pi05_encoder_low_lr_training
+  encoder_continuous_state:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      continuous_state_input: true
+      state_discretization:
+        min_value: -1.5
+        max_value: 1.5
+        num_bins: 512
+      state_normalization: absolute_state_v1
+      action_normalization: absolute_action_v1
+      optimizer_lr: 1e-5
+      scheduler_warmup_steps: 500
+      scheduler_decay_steps: 10000
+      scheduler_decay_lr: 1e-6
+    train:
+      project_name: Pi05_encoder_continuous_state_training
+  encoder_adam_decay:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      optimizer_lr: 0.0001
+      optimizer_betas:
+      - 0.95
+      - 0.999
+      optimizer_weight_decay: 1.0e-06
+      scheduler_warmup_steps: 500
+      scheduler_decay_steps: 10000
+      scheduler_decay_lr: 0.0
+    train:
+      project_name: Pi05_encoder_adam_decay_training
+  encoder_adam:
+    setting:
+      freeze_llm: true
+      visual_encoder_lr_scale: 0.1
+      optimizer_lr: 0.0001
+      optimizer_betas:
+      - 0.95
+      - 0.999
+      optimizer_weight_decay: 1.0e-06
+      scheduler_decay_steps: 20000
+      scheduler_decay_lr: 1.0e-05
+    train:
+      project_name: Pi05_encoder_adam_training

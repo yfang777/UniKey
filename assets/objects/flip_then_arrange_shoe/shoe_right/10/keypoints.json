@@ -1,0 +1,81 @@
+{
+  "mesh_file": "assets/objects/flip_then_arrange_shoe/shoe_right/10/shoe_right_10.stl",
+  "bounding_box": {
+    "min": [
+      -0.13478521499122323,
+      -0.05246313066200072,
+      -0.05748979385133389
+    ],
+    "max": [
+      0.1349636321115879,
+      0.05238973501374523,
+      0.05716158269263612
+    ],
+    "dimensions": [
+      0.2697488471028111,
+      0.10485286567574595,
+      0.11465137654397001
+    ]
+  },
+  "keypoints": [
+    {
+      "name": "Opening Center",
+      "position": [
+        0.07664405661660165,
+        0.01589277051602753,
+        -0.0027931502960736954
+      ]
+    },
+    {
+      "name": "Shoe Origin",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shoe Forward +X",
+      "position": [
+        -0.05,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Shoe Right +Y",
+      "position": [
+        0.0,
+        0.0,
+        -0.05
+      ]
+    },
+    {
+      "name": "Shoe Up +Z",
+      "position": [
+        0.0,
+        0.05,
+        0.0
+      ]
+    },
+    {
+      "name": "Right-side Grasp",
+      "position": [
+        0.07561477061730836,
+        0.015636010941083127,
+        -0.034672651351949996
+      ]
+    },
+    {
+      "name": "Sole Center",
+      "position": [
+        0.0,
+        -0.0525,
+        0.0
+      ]
+    }
+  ],
+  "schema": "shoe_tray_placement",
+  "annotation_status": "Opening midpoint from v1 points 1 and 3; virtual origin and 5 cm axis markers",
+  "axis_convention": "Semantic forward/right/up correspond to mesh -X/-Z/+Y; semantic axis names do not rename mesh axes."
+}

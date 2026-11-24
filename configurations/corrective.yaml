@@ -1,0 +1,2 @@
+pos_diff_threshold: 0.02
+recovery_seconds: 2.0

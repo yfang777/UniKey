@@ -1,0 +1,37 @@
+shoe_right:
+  asset_dir: assets/objects/flip_then_arrange_shoe/shoe_right/10
+  keypoints_path: assets/objects/flip_then_arrange_shoe/shoe_right/10/keypoints.json
+  base: [0.20, 0.0, 0.0475]
+  x: [0.10, 0.15]
+  y: [-0.25, -0.15]
+  z: [0.0, 0.0]
+  roll_deg: [0, 0]
+  pitch_deg: [0, 0]
+  yaw_deg: [165, 210]
+
+shoe_left:
+  asset_dir: assets/objects/flip_then_arrange_shoe/shoe_left/10
+  keypoints_path: assets/objects/flip_then_arrange_shoe/shoe_left/10/keypoints.json
+  # Pose is derived from the tray's left slot; the long axes are aligned.
+
+tray:
+  asset_dir: assets/objects/flip_then_arrange_shoe/shoe_tray/1
+  position_m: [0.20, 0.20, 0.0]
+  orientations:
+    - probability: 0.5
+      yaw_deg: 0
+    - probability: 0.5
+      yaw_deg: 90
+
+lighting:
+  # Three equally spaced ceiling lights around the work area, all at z=1.1 m.
+  ambient: [0.10, 0.10, 0.10]
+  diffuse: [0.40, 0.40, 0.40]
+  specular: [0.005, 0.005, 0.005]
+  lights:
+    - pos: [0.80, 0.10, 1.10]
+      dir: [-0.60, 0.0, -1.05]
+    - pos: [-0.10, 0.619615, 1.10]
+      dir: [0.30, -0.519615, -1.05]
+    - pos: [-0.10, -0.419615, 1.10]
+      dir: [0.30, 0.519615, -1.05]

@@ -1,0 +1,13 @@
+mug:
+  x: [0.18, 0.28]          # meters
+  y: [-0.35, -0.25]        # meters
+  theta_deg: [90, 270]     # Handle direction: -Y through +X to +Y (local handle is -X).
+
+rack:
+  x: [0.31, 0.33]          # meters
+  y: [-0.02, 0.02]        # meters
+  theta_deg: [-22.5, 42.5]     # degrees
+
+
+base_mug: [0.0, 0.0, 0.0]
+base_rack: [0.0, 0.0, 0.0]

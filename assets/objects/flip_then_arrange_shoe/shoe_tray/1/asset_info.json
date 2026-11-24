@@ -1,0 +1,35 @@
+{
+  "source": "Meshy_AI_Cardboard_Tray_on_Woo_0909002419_texture.glb",
+  "source_sha256": "08f19ea257c951fdccbf9ae5939ac9f5a4adf1ddca9992a3d13da08a1609295f",
+  "dimensions_m": [
+    0.345,
+    0.3,
+    0.105
+  ],
+  "floor_z_m": 0.014,
+  "rim_z_m": 0.105,
+  "collision": "one box floor and four convex sloped walls; fixed to table",
+  "walls": [
+    "wall_0_-1.obj",
+    "wall_0_1.obj",
+    "wall_1_-1.obj",
+    "wall_1_1.obj"
+  ],
+  "slots_local_m": {
+    "left": [
+      0,
+      0.08,
+      0.016
+    ],
+    "right": [
+      0,
+      -0.06,
+      0.016
+    ]
+  },
+  "forward_local": [
+    1,
+    0,
+    0
+  ]
+}
